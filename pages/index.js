@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useState, useRef } from "react";
-import LoadHome from "./components/home.page.js";
-import LoadSearchTab from "./components/search.page.js";
+import LoadHome from "./components/home.js";
+import LoadSearchTab from "./components/search.js";
 
 export default function Main() {
   const [focus, setFocus] = useState("home");
