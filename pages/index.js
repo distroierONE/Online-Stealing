@@ -1,9 +1,6 @@
 import Head from "next/head";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import LoadHome from "./components/home.page.js";
-import LoadInfo from "./components/info.page.js";
-import LoadFavorites from "./components/favorites.page.js";
-import LoadCart from "./components/cart.page.js";
 import LoadSearchTab from "./components/search.page.js";
 
 export default function Main() {
